@@ -1,0 +1,29 @@
+{
+  "name": "msemailservice",
+  "version": "1.0.0",
+  "description": "mark and shin email service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shincatacutan/msemailservice.git"
+  },
+  "keywords": [
+    "mark",
+    "and",
+    "shin"
+  ],
+  "author": "thegoblinsbride",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shincatacutan/msemailservice/issues"
+  },
+  "homepage": "https://github.com/shincatacutan/msemailservice#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.4",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "restify": "^7.1.1"
+  }
+}
