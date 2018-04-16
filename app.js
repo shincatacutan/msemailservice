@@ -61,6 +61,6 @@ server.post('/mailservice', (req, res, next) => {
   next()
 })
 
-server.listen(process.env.port, function() {
+server.listen(port, function() {
   console.log('%s listening at %s', server.name, server.url);
 });
