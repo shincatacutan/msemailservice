@@ -61,6 +61,6 @@ server.post('/mailservice', (req, res, next) => {
   next()
 })
 
-server.listen(443, function() {
+server.listen(process.env.port, function() {
   console.log('%s listening at %s', server.name, server.url);
 });
