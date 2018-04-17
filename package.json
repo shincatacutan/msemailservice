@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/shincatacutan/msemailservice#readme",
   "dependencies": {
+    "debug": "^3.1.0",
     "nodemailer": "^4.6.4",
     "nodemailer-smtp-transport": "^2.7.4",
     "restify": "^7.1.1"

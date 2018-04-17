@@ -57,6 +57,10 @@ server.post('/mailservice', (req, res, next) => {
 	            console.log("Message sent! ");
 	        }
 	    });
+   res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.header('Access-Control-Allow-Credentials', true);
   res.send("post received for customer " + req.body.name + ". Thanks!");
   next()
 })
